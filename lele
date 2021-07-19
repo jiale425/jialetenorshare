@@ -1,5 +1,26 @@
-case 10: {
-              bitField0_ |= 0x00000001;
-              chunkChecksum_ = input.readBytes();
-              break;
-            }
+    /**
+     * <code>optional bytes chunk_encryption_key = 2;</code>
+     */
+    boolean hasChunkEncryptionKey();
+    /**
+     * <code>optional bytes chunk_encryption_key = 2;</code>
+     */
+    com.google.protobuf.ByteString getChunkEncryptionKey();
+
+    /**
+     * <code>required uint32 chunk_length = 3;</code>
+     */
+    boolean hasChunkLength();
+    /**
+     * <code>required uint32 chunk_length = 3;</code>
+     */
+    int getChunkLength();
+
+    /**
+     * <code>optional uint32 chunk_offset = 4;</code>
+     */
+    boolean hasChunkOffset();
+    /**
+     * <code>optional uint32 chunk_offset = 4;</code>
+     */
+    int getChunkOffset();
