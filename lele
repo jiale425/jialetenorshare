@@ -1,4 +1,3 @@
- * Protobuf type {@code ChunkInfo}
    */
   public static final class ChunkInfo extends
       com.google.protobuf.GeneratedMessage implements
@@ -8,4 +7,5 @@
     private ChunkInfo(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
       super(builder);
       this.unknownFields = builder.getUnknownFields();
-]
+    }
+  
