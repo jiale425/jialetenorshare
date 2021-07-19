@@ -9,3 +9,10 @@
       this.unknownFields = builder.getUnknownFields();
     }
   
+private final com.google.protobuf.UnknownFieldSet unknownFields;
+    @java.lang.Override
+    public final com.google.protobuf.UnknownFieldSet
+        getUnknownFields() {
+      return this.unknownFields;
+    }
+    private ChunkInfo(
