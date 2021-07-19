@@ -1,1 +1,9 @@
-hello wrold
+public static final class ChunkInfo extends
+      com.google.protobuf.GeneratedMessage implements
+      // @@protoc_insertion_point(message_implements:ChunkInfo)
+      ChunkInfoOrBuilder {
+    // Use ChunkInfo.newBuilder() to construct.
+    private ChunkInfo(com.google.protobuf.GeneratedMessage.Builder<?> builder) {
+      super(builder);
+      this.unknownFields = builder.getUnknownFields();
+    }
